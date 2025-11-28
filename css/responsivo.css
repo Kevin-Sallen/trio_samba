@@ -1,0 +1,9 @@
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 5rem;
+  }
+  .menu {
+    display: none; /* Depois dá pra fazer menu mobile */
+  }
+}

@@ -1,18 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trio Samba BZ</title>
+
+    <!-- Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsivo.css">
-
 </head>
+
 <body>
-    <header> <h1> Trio Samba</h1>
+    <header class="topo">
+        <div class="logo">Trio <span>Samba BZ</span></div>
+        <nav class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#agenda">Agenda</a>
+            <a href="#videos">Vídeos</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
-   ai ai ai 
+
+    <main id="inicio">
+        <section class="hero">
+            <div class="hero-texto">
+                <h1>Samba de verdade, do jeito que a noite pede.</h1>
+                <p>Trio Samba BZ – música boa, risada solta e mesa cheia.</p>
+                <div class="botoes-hero">
+                    <a href="#agenda" class="btn primario">Ver agenda</a>
+                    <a href="#contato" class="btn secundario">Chamar no WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-imagem">
+                <!-- Aqui você coloca uma foto do trio -->
+                <img src="img/trio-samba.jpg" alt="Trio Samba BZ em apresentação ao vivo">
+            </div>
+        </section>
+
+        <section id="sobre" class="bloco">
+            <h2>Sobre o Trio</h2>
+            <p>
+                Nascido da vontade de manter o samba vivo na mesa do bar, o
+                <p class="forte">Trio Samba BZ</p> une músicos com anos de experiência na noite,
+                rodas de rua e eventos particulares. No repertório, tem de tudo um pouco:
+                clássicos do samba raiz, pagode dos anos 90, sucessos atuais e versões próprias
+                cheias de personalidade.
+            </p>
+            <p>
+                Nosso objetivo é simples: <p class="forte">fazer o público cantar, rir, brindar e sair
+                    com a sensação de ter vivido uma noite que valeu a pena.</p>
+            </p>
+        </section>
+
+        <section id="agenda" class="bloco">
+            <h2>Agenda</h2>
+            <p>Fica de olho na nossa programação e cola com a gente:</p>
+            <ul class="lista-agenda">
+                <li>
+                    <span class="data">Sáb · 06/12</span>
+                    <span class="info">Bar do Centro – BH/MG · 21h</span>
+                </li>
+                <li>
+                    <span class="data">Sex · 12/12</span>
+                    <span class="info">Choperia Vila Samba – BH/MG · 20h</span>
+                </li>
+                <li>
+                    <span class="data">Dom · 21/12</span>
+                    <span class="info">Feijoada do BZ – Espaço Cultural X · 13h</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="videos" class="bloco">
+            <h2>Vídeos</h2>
+            <p>Assista um pouco do nosso som ao vivo:</p>
+            <div class="grid-videos">
+                <!-- Trocar os links pelos reels reais do Insta -->
+                <a href="https://www.instagram.com/trio.sambabz" target="_blank" class="card-video">
+                    <div class="thumb-video">Vídeo 1</div>
+                    <span>Roda de samba ao vivo</span>
+                </a>
+                <a href="https://www.instagram.com/trio.sambabz" target="_blank" class="card-video">
+                    <div class="thumb-video">Vídeo 2</div>
+                    <span>Pagode anos 90</span>
+                </a>
+                <a href="https://www.instagram.com/trio.sambabz" target="_blank" class="card-video">
+                    <div class="thumb-video">Vídeo 3</div>
+                    <span>Samba pra cantar junto</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="galeria" class="bloco">
+            <h2>Galeria</h2>
+            <div class="grid-galeria">
+                <img src="img/show-1.jpg" alt="Show do Trio Samba BZ">
+                <img src="img/show-2.jpg" alt="Público cantando com o trio">
+                <img src="img/show-3.jpg" alt="Roda de samba animada">
+                <img src="img/show-4.jpg" alt="Detalhe dos instrumentos">
+            </div>
+        </section>
+
+        <section id="contato" class="bloco contato">
+            <h2>Contato & Booking</h2>
+            <p>Quer levar o Trio Samba BZ pro seu evento?</p>
+            <ul>
+                <li>💬 WhatsApp: <a href="#">(00) 00000-0000</a></li>
+                <li>📷 Instagram: <a href="https://www.instagram.com/trio.sambabz" target="_blank">@trio.sambabz</a>
+                </li>
+                <li>✉️ E-mail: <a href="mailto:contato@triosambabz.com">contato@triosambabz.com</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2025 Trio Samba BZ – Todos os direitos reservados.</p>
+        <p>Samba, alegria e boas histórias ao vivo.</p>
+    </footer>
 </body>
+
 </html>
